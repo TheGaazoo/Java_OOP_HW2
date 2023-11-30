@@ -9,7 +9,7 @@ public class Main {
 
         vetClinic
                 .addAnimal(new Cat("Барсик", "Черный"))
-                .addAnimal(new Dog("Бобик", null, "Рыжий"))
+                .addAnimal(new Dog("Бобик", "Рыжий"))
                 .addAnimal(new Duck("Дональд", "Белый"))
                 .addAnimal(new Bird("Кеша", "Коричневый"))
                 .addAnimal(new Parrot("Гоша", "Желтый"))
@@ -59,7 +59,6 @@ public class Main {
             ill.getIll();
             
         }
-        
         System.out.println("\nГлавный ветиринарный врач:");
         System.out.println(doctors);
         System.out.println();
